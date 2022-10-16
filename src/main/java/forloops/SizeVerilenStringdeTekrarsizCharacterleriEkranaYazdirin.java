@@ -15,12 +15,28 @@ public class SizeVerilenStringdeTekrarsizCharacterleriEkranaYazdirin {
 
             if (str.indexOf(ch)==str.lastIndexOf(ch)) {
 
-                System.out.print(ch + " ");
+                System.out.print(ch);//boslugu saymadi cunku 2 tane bosluk girildi
             }
             
         }
 
-        
+        System.out.println();
+
+        //Example 8:"Size verilen String'de tekrarsiz characterleri ekrana yazdiriniz.
+        //           "Beni ben yapan benim. " ==> Bypm.
+
+        String tekrarsiz = "Beni ben yapan benim. ";
+
+        for (int i = 0; i <tekrarsiz.length(); i++) {
+
+            char c = tekrarsiz.charAt(i);
+
+            if (tekrarsiz.indexOf(c)==tekrarsiz.lastIndexOf(c)) {
+
+                System.out.print(c);//Bypm.
+            }
+
+        }
         
     }
 }

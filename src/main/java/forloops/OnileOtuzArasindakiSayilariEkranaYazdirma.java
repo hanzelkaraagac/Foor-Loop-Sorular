@@ -1,6 +1,6 @@
 package forloops;
 
-public class Onile30ArasindakiSayilariEkranaYazdirma {
+public class OnileOtuzArasindakiSayilariEkranaYazdirma {
     public static void main(String[] args) {
 
         /*

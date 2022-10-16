@@ -1,6 +1,6 @@
 package forloops;
 
-public class SayilarGeliri {
+public class VerilenSayiAraligiKadarTamSayilarinToplaminiBulanKoduYazin {
     public static void main(String[] args) {
 
         //Example 1: 3'den 6 ya kadar tam sayilarin toplamini bulan kodu yaziniz.

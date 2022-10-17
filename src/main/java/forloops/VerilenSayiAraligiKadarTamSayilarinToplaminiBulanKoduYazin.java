@@ -17,7 +17,7 @@ public class VerilenSayiAraligiKadarTamSayilarinToplaminiBulanKoduYazin {
 
         System.out.println();
 
-        //Example 1: 15'den 10 ya kadar tam sayilarin toplamini bulan kodu yaziniz.
+        //Example 2: 15'den 10 ya kadar tam sayilarin toplamini bulan kodu yaziniz.
 
         int sa = 0;
 
@@ -28,5 +28,18 @@ public class VerilenSayiAraligiKadarTamSayilarinToplaminiBulanKoduYazin {
         }
         System.out.print(sa);
 
+        System.out.println();
+
+        //Example 3: 6'den 3 ya kadar tam sayilarin carpimi bulan kodu yaziniz.
+
+        int str = 1;
+
+        for (int i = 6; i >2 ; i--) {
+
+            str = str * i;
+
+        }
+
+        System.out.print(str);
     }
 }

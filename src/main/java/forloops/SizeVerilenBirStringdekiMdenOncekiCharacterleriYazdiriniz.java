@@ -19,7 +19,7 @@ public class SizeVerilenBirStringdekiMdenOncekiCharacterleriYazdiriniz {
         }
         System.out.println("\n");
 
-        //Example 3: Size verilen bir String'deki'm' den onceki characterleri yazdiriniz.
+        //Example 3: Size verilen bir String'deki 'y' den onceki characterleri yazdiriniz.
         //          Ben bir sal yaptim ==> Ben bir sal
 
         String sum = "Ben bir sal yaptim";
